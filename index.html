@@ -1,215 +1,171 @@
+﻿<!--
 
-    <meta property="og:url" content="http://smef.pw/"/>
-    <meta property="og:title" content="smef's official website"/>
-    <meta property="og:description" content="The website og smef.pw"/>
-    <meta property="og:site_name" content="smef.pw"/>
-    <meta property="og:type" content="website"/>
-
-    <meta property="og:image" content="http://smef.pw/cool.png"/>
-<!--
-V-H.SU EDWARDALD
+Слит сайтом WebStudio.PW
+vk.com/qu1kgg - вк
+vk.com/ws_pw - группа вк
+WebStudio.PW - сайтом
+Trade.WebStudio.PW - поддержать меня
 -->
-
+<!DOCTYPE html>
+<html lang="Ru">
 <head>
-	<title>\ smef \</title> 
-   <meta charset="utf-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="description" content="">
-   <meta name="keywords" content="">
-   <meta name="author" content="">
-   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-   <meta charset="utf-8" />
-   <meta name="viewport" content="width=device-width, initial-scale=1" />
-   <link rel="stylesheet" href="files/css/main.css" />
-   <link rel='stylesheet' href='files/css/bootstrap.min.css'>
-   <link rel='stylesheet' href='files/css/vendor.css'>
-   <link rel='stylesheet' href='files/css/theme_black_red.css' id="theme">
-   <link rel='stylesheet' href='files/css/custom.css'>
-   <link rel='stylesheet' href='files/css/demo.css'>
-   <link rel="stylesheet" href="cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.html">
-   <script src="files/js/vendor/modernizr-2.8.3.min.js"></script>
-   <script src='files/js/vendor/html5shiv.min.js'></script>
-   <style>
-   	#page-preloader {
-    position: fixed;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    background: #000;
-    z-index: 100500;
-}
-   </style>
-   	<script type="text/javascript">
-	var scrl = " / smef.pw ";
-	function scrlsts() {
-	 scrl = scrl.substring(1, scrl.length) + scrl.substring(0, 1);
-	 document.title = scrl;
-	 setTimeout("scrlsts()", 300);
-	}
-	</script>
-     <link rel="icon" href="cool.png" type="image/png">
-     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-   <script language="JavaScript">
-      //////////F12 disable code////////////////////////
-          document.onkeypress = function (event) {
-              event = (event || window.event);
-              if (event.keyCode == 123) {
-                 //alert('No F-12');
-                  return false;
-              }
-          }
-          document.onmousedown = function (event) {
-              event = (event || window.event);
-              if (event.keyCode == 123) {
-                  //alert('No F-keys');
-                  return false;
-              }
-          }
-      document.onkeydown = function (event) {
-              event = (event || window.event);
-              if (event.keyCode == 123) {
-                  //alert('No F-keys');
-                  return false;
-              }
-          }
-      var message=":o";      
-      function clickIE() {if (document.all) {(message);return false;}}
-      function clickNS(e) {if
-      (document.layers||(document.getElementById&&!document.all)) {
-      if (e.which==2||e.which==3) {(message);return false;}}}
-      if (document.layers)
-      {document.captureEvents(Event.MOUSEDOWN);document.onmousedown=clickNS;}
-      else{document.onmouseup=clickNS;document.oncontextmenu=clickIE;}
-      document.oncontextmenu=new Function("return false")
-      function disableCtrlKeyCombination(e)
-      {
-      var forbiddenKeys = new Array('a', 'n', 'c', 'x', 'v', 'j' , 'w');
-      var key;
-      var isCtrl;
-      if(window.event)
-      {
-      key = window.event.keyCode;
-      if(window.event.ctrlKey)
-      isCtrl = true;
-      else
-      isCtrl = false;
-      }
-      else
-      {
-      key = e.which;
-      if(e.ctrlKey)
-      isCtrl = true;
-      else
-      isCtrl = false;
-      }
-      if(isCtrl)
-      {
-      for(i=0; i<forbiddenKeys.length; i++)
-      {
-      if(forbiddenKeys[i].toLowerCase() == String.fromCharCode(key).toLowerCase())
-      {
-      alert('Key combination CTRL + '+String.fromCharCode(key) +' has been disabled.');
-      return false;
-      }
-      }
-      }
-      return true;
-      }
-   </script>
-   <script> var message="Sorry, right-click has been disabled";
-  function clickIE(){ if(document.all){(message);return false;}}
-  function clickNS(e){ if(document.layers||(document.getElementById&&!document.all)){
-  if(e.which==2||e.which==3){(message);return false;}}}
-  if(document.layers){document.captureEvents(Event.MOUSEDOWN);document.onmousedown=clickNS;}else{document.onmouseup=clickNS;document.oncontextmenu=clickIE;}
-  document.oncontextmenu=new Function("return false")bg
-  </script>
-   <script>
-   document.onkeydown = function(e) { 
-   if (e.ctrlKey && (e.keyCode === 67 || e.keyCode === 86 || e.keyCode === 85 || e.keyCode === 117)) {//Alt+c, Alt+v will also be disabled sadly. 
-    } 
-   return false; 
-   }; 
-   </script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta property="og:type" content="website">
+<meta property="og:description" content="GRIKOS PORTFOLIO / Web designer ">
+<meta property="og:image" content="https://kuon.space/assets/img/ogp.png">
+<meta property="og:site_name" content="GRIKOS PORTFOLIO">
+<meta property="og:locale" content="ja_JP">
+<link rel="stylesheet" href="assets/css/jquery.fullPage.css">
+<link rel="stylesheet" href="assets/css/common.css">
+<link rel="stylesheet" href="releases/v5.0.6/css/all.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="shortcut icon" href="favicon.ico">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta property="og:url" content="grikos.tk">
+<meta property="og:title" content="GRIKOS PORTFOLIO">
+<title>GRIKOS PORTFOLIO</title>
 </head>
-<body onLoad="scrlsts()" onmousedown="return false" onselectstart="return false">
-	<div id="page-preloader">
-   <div class="site-loader">
-      <span></span>
-      <p>smef.pw</p>
-   </div>
-   </div>
-   <div class"divide" style="
-    padding: 0;
-    margin: 0;
-    margin-bottom: 30px;
-    background: #1e5799;
-    background: -moz-linear-gradient(left,#1e5799 0%,#f300ff 50%,#e0ff00 100%);
-    background: -webkit-gradient(linear,left top,right top,color-stop(0%,#1e5799),color-stop(50%,#f300ff),color-stop(100%,#e0ff00));
-    background: -webkit-linear-gradient(left,#1e5799 0%,#f300ff 50%,#e0ff00 100%);
-    background: -o-linear-gradient(left,#1e5799 0%,#f300ff 50%,#e0ff00 100%);
-    background: -ms-linear-gradient(left,#1e5799 0%,#f300ff 50%,#e0ff00 100%);
-    background: linear-gradient(to right,#1e5799 0%,#f300ff 50%,#e0ff00 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1e5799',endColorstr='#e0ff00',GradientType=1);
-    height: 6px;"></div>
-   <div class="pmeme">
-      <video id="video" autoplay="autoplay" loop="loop" onloadstart="this.volume=0.3">
-         <source src="http://smef.pw/files/vid.mp4" type="video/mp4"></source>
-      </video>
-   </div>
-   <div class="site-bg">
-      <div class="site-bg__overlay"></div>
-      <div class="site_countdown"></div>
-      <div class="site-bg__effect"></div>
-      <canvas class="site-bg__canvas"></canvas>
-   </div>
-   </header>
-   <div class="loading">
-      <div id="wrapper">
-         <div id="main">
-            <header id="header">
-               <h1><font class="unselectable">smef.pw</font></h1>
-               <h2><font size="2" class="unselectable">
-			   <!--<script type="text/javascript" src="files/js/date_time.js"></script>
-			   <span id="date_time"></span>
-			   <script type="text/javascript">window.onload = date_time('date_time');</script>
-			   <br>--><span style="font-size:16px; color:#FFFFFF; padding:1px 1px 1px 1px;">Your IP address is <script type="text/javascript" src="http://www.snaphost.com/tools/ip.aspx"></script></font></h2>
-               <nav>
-                     <a href="https://selly.gg/@smef" target="_blank"> Shop | </a>
-                     <a href="https://discord.gg/cK8CHXB" target="_blank">Discord | </a>
-                     <a href="http://smef.pw/pasting/" target="_blank">Pasting | </a>
-					 <a href="http://smef.pw/Indigo" target="_blank">Indigo | </a>
-					 <a href="http://primenumbers.ml/" target="_blank">Prime | </a>
-					 <a href="http://smef.pw/junkcode/" target="_blank">Junkcode | </a>
-					 <a href="https://www.youtube.com/channel/UC6Y9N_REzmdRa4h7TZXZkyg" target="_blank">Youtube | </a>
-					 <a href="https://moonwalkers.life" target="_blank">Moonwalkers</a>
-               </nav>
-            </header>
-         </div>
-      </div>
-   </div>
-           		<DIV style="position: absolute; top:20px; right:1610px; width:300px; height:25px">
-            <span style="font-size:16px; color:#FFFFFF; padding:1px 1px 1px 1px;">Quick Mentions:<br><a Target="_blank" href="http://nightgang.pw">Night-Gang</a><br><a Target="_blank" href="https://www.youtube.com/channel/UCV_tzJk_YOnQgOwCZUYBqlA">Zadey</a> </span>
-        </DIV>
-   <script src="files/js/vendor/jquery-2.1.4.min.js"></script>
-   <script src='files/js/vendor/bootstrap.min.js'></script>
-   <script src='files/js/vendor/plugin.js'></script>
-   <script src='files/js/variable.js'></script>
-   <!--<script src='files/js/demo.js'></script>-->
-   <script>
-   	$(window).on('load', function () {
-    var $preloader = $('#page-preloader'),
-        $spinner   = $preloader.find('.site-loader');
-    $spinner.delay(1500).fadeOut();
-    $preloader.delay(1500).fadeOut('slow');
-});
-   </script>
+<body>
+
+<script type="text/javascript">
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter48250808 = new Ya.Metrika({
+                    id:48250808,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/48250808" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+
+<header><a class="name" href="./">GRIKOS DESIGN</a>
+<div class="wrap">
+<div class="icons"><a href="https://t.me/grikos/" target="_blank"><i class="fab fa-telegram-plane"></i></a><a href="https://steamcommunity.com/id/Gr1Kos/" target="_blank"><i class="fab fa-steam-symbol"></i></a><a href="https://vk.com/grikos56" target="_blank"><i class="fab fa-vk"></i></a></div>
+<div class="curtain"></div>
+<div class="loader"></div>
+</header>
+<main id="barba-wrapper">
+<div class="barba-container" data-namespace="top">
+<div class="fullpage" id="js-fullpage">
+<div class="section">
+<div class="fullpage__slide">
+<div class="title title--top">
+<h1 class="title__text js-letter">GRIKOS<br>DESIGN</h1>
+<div class="border js-letter"><span></span><span class=""></span></div>
+<p class="title__lead js-letter">web designer<br></p>
+</div>
+<div class="moon">
+<div class="moon__img js-parallax-moon">
+<div class="moon__front layer" data-depth="0.2">
+<div class="moon__text-wrap">
+<p class="moon__text js-moon" data-depth="0.5">PORTFOLIO</p>
+</div>
+</div>
+<div class="moon__front layer" data-depth="0.8">
+<div class="cloud cloud--front1 js-moon"><img src="assets/img/cloud1.svg" alt="cloud"></div>
+</div>
+<div class="moon__back layer" data-depth="0.4">
+<div class="cloud cloud--back2 js-moon"><img src="assets/img/b_cloud02.svg" alt="cloud"></div>
+</div>
+<div class="moon__front layer" data-depth="0.6">
+<div class="cloud cloud--front2 js-moon"><img src="assets/img/cloud2.svg" alt="cloud"></div>
+</div>
+<div class="moon__back layer" data-depth="0.5"><img class="js-moon" src="assets/img/moon.svg" alt="moon"></div>
+<div class="moon__front layer" data-depth="0.7">
+<div class="cloud cloud--front3 js-moon"><img src="assets/img/cloud3.svg" alt="cloud"></div>
+</div>
+<div class="moon__back layer" data-depth="0.3">
+<div class="cloud cloud--back1 js-moon"><img src="assets/img/b_cloud01.svg" alt="cloud"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="section">
+<div class="fullpage__slide">
+<div class="title">
+<h2 class="title__text js-letter">GriKos<br>PORTFOLIO</h2>
+<div class="border js-letter"><span></span><span class=""></span></div>
+<div class="btn-wrap js-letter"><a class="btn" href="./portfolio.html">Посмотреть</a></div>
+</div><a class="image image--works" href="/portfolio">
+<div class="image__over">
+<div class="image__cover"></div>
+<div class="image__cover"></div>
+</div></a>
+</div>
+</div>
+<div class="section">
+<div class="fullpage__slide">
+<div class="title">
+<h2 class="title__text js-letter">Обо мне</h2>
+<div class="border js-letter"><span></span><span class=""></span></div>
+<p class="title__lead js-letter">Дизайнер с LZT</p>
+<div class="btn-wrap js-letter"><a class="btn" href="./about">Узнать больше</a></div>
+</div><a class="image image--about" href="./about.html">
+<div class="image__over">
+<div class="image__cover"></div>
+<div class="image__cover"></div>
+</div></a>
+</div>
+</div>
+<div class="section">
+<div class="fullpage__slide">
+<div class="title">
+<h2 class="title__text js-letter">Контакты</h2>
+<div class="border js-letter"><span></span><span class=""></span></div>
+<ul>
+<li class="js-letter"><a href="https://t.me/grikos/" target="_blank"><i class="fab fa-telegram-plane"></i></a><a href="https://steamcommunity.com/id/Gr1Kos/" target="_blank"><i class="fab fa-steam-symbol"></i></a><a href="https://vk.com/grikos56" target="_blank"><i class="fab fa-vk"></i></a></li>
+</ul>
+</div>
+<div class="image image--contact">
+<div class="image__over">
+<div class="image__cover"></div>
+</div>
+<div class="page-num">
+</div>
+</div>
+</div>
+</div>
+</div>
+<p class="scrollDown">SCROLLDOWN</p>
+<div class="moon-background">
+<div class="moonlight">
+<div class="moonlight__wrap js-parallax-moonlight">
+<div class="layer moonlight__img" data-depth="0.2"></div>
+</div>
+</div>
+</div>
+<div class="star js-parallax-star">
+<div class="layer" data-depth="0.1">
+<div class="star__img"><img src="assets/img/star.svg"></div>
+</div>
+</div>
+<div class="sky-color"></div>
+</div>
+</main>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="assets/js/jquery.fullPage.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>
+<script src="assets/js/parallax.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/barba.js/1.0.0/barba.min.js"></script>
+<script src="assets/js/common.min.js"></script>
 </body>
-</html><!--
-<audio autoplay="" loop="" id="player">
-		 <source src="files/music.mp3">
-		 <script>
-		var audio = document.currentScript.parentElement;
-		audio.volume = 0.27;
-		</script>
-		 </source></audio>-->
+</html>
